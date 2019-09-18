@@ -11,6 +11,12 @@ The application shall also contain getters and setters for each private member v
 Create another class called BookApp which contains the main method. In the main method you shall create an instance of
  a Book and print the Author, Title and Description.
 
+Next, you'll add an overloaded constructor and a method.
+
+An overloaded constructor is a constructor that takes one or more parameters. You can create multiple constructors as long as the parameter types and counts are unique. Create a constructor  in the BookDB  class that takes an SKU and populates the private member variables. The constructor by default will return the appropriate BookDB object when it is called. You do not need to include a return statement.
+
+Next, create a method in your Book class called getDisplayText(). It takes no parameters. When called it returns a string containing the author, title and description. Do not use System.out.print() in your class. Simply return the string and let the calling class handle the print statements. You can use this method to print your book information to the console or a file or a web page.
+
 Publish your solution to GitHub and submit your GitHub url as the assignment.
  */
 
